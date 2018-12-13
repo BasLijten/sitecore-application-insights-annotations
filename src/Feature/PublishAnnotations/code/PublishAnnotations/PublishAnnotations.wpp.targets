@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Project ToolsVersion="4.0"
+   xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <!-- Files that may not be deployed at all -->
+    <ExcludeFilesFromDeployment>
+      PublishAnnotations.wpp.targets;
+      bin\*.Foundation.*;
+      bin\*.Feature.*;
+      bin\RazorGenerator.Mvc.*;
+      bin\Microsoft*;
+      bin\roslyn\**;
+      bin\Sitecore.*;
+      bin\System.*.dll;
+      bin\EcmaScript.NET.*;
+      bin\HtmlAgilityPack.dll;
+      bin\ICSharpCode.SharpZipLib.*;
+      bin\*Iesi.Collections.dll;
+      bin\Newtonsoft.Json.dll;
+      bin\*RazorGenerator.Mvc.dll;
+      bin\WebActivatorEx.*;
+      packages.config;
+      web.config;
+    </ExcludeFilesFromDeployment>
+  </PropertyGroup>
+</Project>
